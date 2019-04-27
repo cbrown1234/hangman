@@ -23,7 +23,6 @@ class Game:
     def ui(self):
         return f"""
 Word: {self.known_letters}
-Guess: {self.guess}
 Misses ({len(self.misses)}/{self.max_misses}): {', '.join(self.misses)}
 """
 
